@@ -1484,6 +1484,8 @@
             function init() {
                 updateAuthDisplay();
                 renderHistory();
+
+                 setMethod('POST');
                 
                 // Carregar token se existir
                 if (authToken) {
